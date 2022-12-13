@@ -1,0 +1,61 @@
+<section class="container-xl" id="section_cards" *ngFor="let x of nLeituras">
+
+
+  <!-- exemplo 1 feito
+      <div class="card">
+      <div class="card-title">
+        <label>Nitrogênio</label>
+      </div>
+      <div class=" card-corpo">
+
+          <img src="../assets/nitrogenio.png" alt="" srcset="">
+
+
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" [ngStyle]="{width: x.nitrogenio +'%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{x.nitrogenio}}%</div>
+        </div>
+      </div>
+    </div>
+  -->
+
+    <div class="card border-info mb-3" style="max-width: 18rem;">
+      <div class="card-header">Nitrogênio</div>
+      <div class="card-body">
+        <h6 class="card-title fw-bold" >{{x.nitrogenio}}</h6>
+      </div>
+    </div>
+
+    <div class="card border-info mb-3" style="max-width: 18rem;">
+      <div class="card-header">Fósforo</div>
+      <div class="card-body">
+        <h6 class="card-title fw-bold" >{{x.fosforo}}</h6>
+      </div>
+    </div>
+
+    <div class="card border-info mb-3" style="max-width: 18rem;">
+      <div class="card-header">Potássio</div>
+      <div class="card-body">
+        <h6 class="card-title fw-bold" >{{x.potassio}}</h6>
+      </div>
+    </div>
+
+    <div class="card border-info mb-3" style="max-width: 18rem;">
+      <div class="card-header">PH</div>
+      <div class="card-body">
+        <h6 class="card-title fw-bold" >{{x.ph}}</h6>
+      </div>
+    </div>
+
+    <div class="card border-info mb-3" style="max-width: 18rem;">
+      <div class="card-header">Temperatura</div>
+      <div class="card-body">
+        <h6 class="card-title fw-bold" >{{x.temperatura}} ºC</h6>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+

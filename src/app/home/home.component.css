@@ -1,0 +1,51 @@
+
+
+#section_cards{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.card{
+  height: auto;
+  box-shadow: 2px 1px lightblue ;
+  width: 160px;
+  /*
+  margin: 10px;
+  background-color: #a6a6a6;*/
+}
+.card-body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+h6.card-title.fw-bold {
+  text-align: center;
+}
+
+/*
+.card-title{
+  margin: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+.card-corpo{
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+}
+.progress{
+  margin: 5px;
+}
+img{
+  width: 100px;
+  height: 80px;
+  object-fit: contain;
+  scale: 2.1;
+
+}
+*/
